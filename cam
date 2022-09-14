@@ -1,0 +1,4 @@
+python3 control.py
+source ~/.bashrc
+gnome-terminal -- ./cam2
+roscore

@@ -1,0 +1,3 @@
+sleep 5
+source ~/.bashrc
+rosrun opencv opencv_pub
