@@ -9,7 +9,7 @@ a1. 노트북-라즈베리파이4 이미지 송수신
 wlo1 : inet 확인  
 
 
-gedit ~/.bashrc  
+> gedit ~/.bashrc  
 
 
 
@@ -18,29 +18,57 @@ gedit ~/.bashrc
 라즈베리파이 : host랑 master모두 라즈베리파이의 inet 주소 기입    
 노트북: master -> 라즈베리파이, host -> 노트북 것 기입  
 
-source ~/.bashrc
+> source ~/.bashrc
 
 노트북 쪽    
-rosrun opencv opencv_sub  
+> rosrun opencv opencv_sub  
   
 
 라즈베리파이 쪽 
-roscore  
-(다른 터미널) rosrun opencv opencv_pub    
+> roscore  
+> (다른 터미널) rosrun opencv opencv_pub    
 
 ------------------------------------------------------------
 
-메인서버 구축 관련
+메인서버 구축 관련 
+
+[폴더명] 을 만들고 그 안에 
+> git clone https://github.com/Profrog/2022competition -b mingyu
+
+-----------------------------------------
+
+![image](https://user-images.githubusercontent.com/26535065/190570719-21efb3c7-a2b3-4595-9967-7e21b45f94ca.png)
 
 
+1. build, devel, install, log 폴더 삭제
+
+![image](https://user-images.githubusercontent.com/26535065/190570857-2211a141-2a57-4a1b-ab09-f27b20c1bd3b.png)
 
 
+2. catkin_ws 폴더에서 build, devel 폴더 삭제
 
 
+![image](https://user-images.githubusercontent.com/26535065/190571109-790ee559-9ba1-41e3-babe-2488c4fc8baf.png)
+
+3. catkin_ws/src/opencv/src/sub.cpp 에서 파일 경로 수정 ( home/[user]/[폴더명]/image.jpg)
 
 
+4. catkin_ws의 src폴더를 [폴더명]안으로 옯기고
+
+> catkin_make
+
+5. build 폴더 삭제 후
+
+> colcon build
+
+6. catkin_ws 폴더 안으로 들어가서
+
+> catkin_make
 
 
+[폴더 명] -> terminal에서 
+
+> ./rosyolo
 
 
 
