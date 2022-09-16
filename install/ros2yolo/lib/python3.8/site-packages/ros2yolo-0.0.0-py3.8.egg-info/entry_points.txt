@@ -1,0 +1,4 @@
+[console_scripts]
+ros2_yolo = ros2yolo.ros2_yolo:main
+yolo_map = ros2yolo.yolo_map:main
+

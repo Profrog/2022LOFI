@@ -1,0 +1,4 @@
+gnome-terminal -- ./cam1
+source install/setup.bash
+#colcon build
+ros2 run ros2yolo ros2_yolo

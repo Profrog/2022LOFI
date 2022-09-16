@@ -1,0 +1,328 @@
+[0.303s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build']
+[0.303s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0f706505e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0f706505e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0f70650b20>)
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mingyu/lofi'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'python'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'catkin_ws/src' with type 'cmake' and name 'Project'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msg) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_msg' with type 'ros.ament_cmake' and name 'custom_msg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(map_data) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(other file) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(ros2yolo) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2yolo' with type 'ros.ament_python' and name 'ros2yolo'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(web_yolo) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'Project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'Project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingyu/lofi/build/Project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingyu/lofi/install/Project', 'merge_install': False, 'path': '/home/mingyu/lofi/catkin_ws/src', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingyu/lofi/build/custom_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingyu/lofi/install/custom_msg', 'merge_install': False, 'path': '/home/mingyu/lofi/custom_msg', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'ros2yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'ros2yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingyu/lofi/build/ros2yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingyu/lofi/install/ros2yolo', 'merge_install': False, 'path': '/home/mingyu/lofi/ros2yolo', 'symlink_install': False, 'test_result_base': None}
+[0.351s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingyu/lofi/custom_msg' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingyu/lofi/custom_msg'
+[0.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.358s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingyu/lofi/catkin_ws/src'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.363s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake /home/mingyu/lofi/custom_msg -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/custom_msg
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake /home/mingyu/lofi/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/Project
+[2.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake /home/mingyu/lofi/custom_msg -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/custom_msg
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake --build /home/mingyu/lofi/build/custom_msg -- -j12 -l12
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake /home/mingyu/lofi/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/Project
+[2.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake --build /home/mingyu/lofi/build/Project -- -j12 -l12
+[4.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake --build /home/mingyu/lofi/build/custom_msg -- -j12 -l12
+[4.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake --install /home/mingyu/lofi/build/custom_msg
+[4.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msg)
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /bin/cmake --install /home/mingyu/lofi/build/custom_msg
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg' for CMake module files
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg' for CMake config files
+[4.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'cmake_prefix_path')
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.sh'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib'
+[4.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'ld_library_path_lib')
+[4.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.ps1'
+[4.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.dsv'
+[4.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.sh'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/bin'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib/pkgconfig/custom_msg.pc'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages'
+[4.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'pythonpath')
+[4.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.ps1'
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.dsv'
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.sh'
+[4.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.ps1'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.dsv'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.sh'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.bash'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.zsh'
+[4.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingyu/lofi/install/custom_msg/share/colcon-core/packages/custom_msg)
+[4.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msg)
+[4.601s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg' for CMake module files
+[4.602s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg' for CMake config files
+[4.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'cmake_prefix_path')
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.ps1'
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.dsv'
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.sh'
+[4.604s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib'
+[4.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'ld_library_path_lib')
+[4.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.ps1'
+[4.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.dsv'
+[4.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.sh'
+[4.605s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/bin'
+[4.605s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib/pkgconfig/custom_msg.pc'
+[4.605s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages'
+[4.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'pythonpath')
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.ps1'
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.dsv'
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/custom_msg/share/custom_msg/hook/pythonpath.sh'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.ps1'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.dsv'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.sh'
+[4.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.bash'
+[4.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/custom_msg/share/custom_msg/package.zsh'
+[4.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingyu/lofi/install/custom_msg/share/colcon-core/packages/custom_msg)
+[4.610s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mingyu/lofi/ros2yolo' with build type 'ament_python'
+[4.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2yolo', 'ament_prefix_path')
+[4.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.ps1'
+[4.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.dsv'
+[4.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/ament_prefix_path.sh'
+[4.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.613s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.613s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[4.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mingyu/lofi/ros2yolo'
+[4.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.867s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.867s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[4.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/ros2yolo': AMENT_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2yolo build --build-base /home/mingyu/lofi/build/ros2yolo/build install --prefix /home/mingyu/lofi/install/ros2yolo --record /home/mingyu/lofi/build/ros2yolo/install.log --single-version-externally-managed
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo' for CMake module files
+[5.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/ros2yolo' returned '0': AMENT_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2yolo build --build-base /home/mingyu/lofi/build/ros2yolo/build install --prefix /home/mingyu/lofi/install/ros2yolo --record /home/mingyu/lofi/build/ros2yolo/install.log --single-version-externally-managed
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo' for CMake config files
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo/lib'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo/bin'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo/lib/pkgconfig/ros2yolo.pc'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages'
+[5.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2yolo', 'pythonpath')
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/pythonpath.ps1'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/pythonpath.dsv'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/hook/pythonpath.sh'
+[5.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2yolo)
+[5.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/package.ps1'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/package.dsv'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/package.sh'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/package.bash'
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/ros2yolo/share/ros2yolo/package.zsh'
+[5.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingyu/lofi/install/ros2yolo/share/colcon-core/packages/ros2yolo)
+[6.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake --build /home/mingyu/lofi/build/Project -- -j12 -l12
+[6.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake --install /home/mingyu/lofi/build/Project
+[6.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Project)
+[6.301s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project' for CMake module files
+[6.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake --install /home/mingyu/lofi/build/Project
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project' for CMake config files
+[6.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('Project', 'cmake_prefix_path')
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/Project/share/Project/hook/cmake_prefix_path.ps1'
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingyu/lofi/install/Project/share/Project/hook/cmake_prefix_path.dsv'
+[6.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingyu/lofi/install/Project/share/Project/hook/cmake_prefix_path.sh'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project/lib'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project/bin'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project/lib/pkgconfig/Project.pc'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mingyu/lofi/install/Project/lib/python3.8/site-packages'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/Project/share/Project/package.ps1'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingyu/lofi/install/Project/share/Project/package.dsv'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/Project/share/Project/package.sh'
+[6.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/Project/share/Project/package.bash'
+[6.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingyu/lofi/install/Project/share/Project/package.zsh'
+[6.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingyu/lofi/install/Project/share/colcon-core/packages/Project)
+[6.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.307s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.312s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.333s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingyu/lofi/install/local_setup.ps1'
+[6.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingyu/lofi/install/_local_setup_util_ps1.py'
+[6.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingyu/lofi/install/setup.ps1'
+[6.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingyu/lofi/install/local_setup.sh'
+[6.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingyu/lofi/install/_local_setup_util_sh.py'
+[6.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingyu/lofi/install/setup.sh'
+[6.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingyu/lofi/install/local_setup.bash'
+[6.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingyu/lofi/install/setup.bash'
+[6.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingyu/lofi/install/local_setup.zsh'
+[6.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingyu/lofi/install/setup.zsh'

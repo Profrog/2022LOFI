@@ -1,0 +1,8 @@
+prefix=/home/mingyu/lofi/build/Project/devel
+
+Name: opencv
+Description: Description of opencv
+Version: 0.0.0
+Cflags: -I/home/mingyu/lofi/catkin_ws/src/opencv/include
+Libs: -L${prefix}/lib -lopencv
+Requires: cv_bridge image_transport rospy roscpp sensor_msgs std_msgs

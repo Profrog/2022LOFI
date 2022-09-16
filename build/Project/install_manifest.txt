@@ -1,0 +1,13 @@
+/home/mingyu/lofi/install/Project/_setup_util.py
+/home/mingyu/lofi/install/Project/env.sh
+/home/mingyu/lofi/install/Project/setup.bash
+/home/mingyu/lofi/install/Project/local_setup.bash
+/home/mingyu/lofi/install/Project/setup.sh
+/home/mingyu/lofi/install/Project/local_setup.sh
+/home/mingyu/lofi/install/Project/setup.zsh
+/home/mingyu/lofi/install/Project/local_setup.zsh
+/home/mingyu/lofi/install/Project/.rosinstall
+/home/mingyu/lofi/install/Project/lib/pkgconfig/opencv.pc
+/home/mingyu/lofi/install/Project/share/opencv/cmake/opencvConfig.cmake
+/home/mingyu/lofi/install/Project/share/opencv/cmake/opencvConfig-version.cmake
+/home/mingyu/lofi/install/Project/share/opencv/package.xml

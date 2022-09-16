@@ -1,0 +1,28 @@
+running egg_info
+creating ../build/ros2yolo/ros2yolo.egg-info
+writing ../build/ros2yolo/ros2yolo.egg-info/PKG-INFO
+writing dependency_links to ../build/ros2yolo/ros2yolo.egg-info/dependency_links.txt
+writing entry points to ../build/ros2yolo/ros2yolo.egg-info/entry_points.txt
+writing requirements to ../build/ros2yolo/ros2yolo.egg-info/requires.txt
+writing top-level names to ../build/ros2yolo/ros2yolo.egg-info/top_level.txt
+writing manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+reading manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+writing manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mingyu/lofi/build/ros2yolo/build
+creating /home/mingyu/lofi/build/ros2yolo/build/lib
+creating /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/yolo_map.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/ros2_yolo.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+copying ros2yolo/__init__.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages/ros2yolo-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/ros2yolo/ros2yolo.egg-info to /home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages/ros2yolo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ros2_yolo script to /home/mingyu/lofi/install/ros2yolo/lib/ros2yolo
+Installing yolo_map script to /home/mingyu/lofi/install/ros2yolo/lib/ros2yolo
+writing list of installed files to '/home/mingyu/lofi/build/ros2yolo/install.log'

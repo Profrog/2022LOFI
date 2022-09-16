@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (custom_msg) JobQueued: {'identifier': 'custom_msg', 'dependencies': OrderedDict()}
+[0.000716] (custom_msg) JobStarted: {'identifier': 'custom_msg'}
+[0.009522] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'cmake'}
+[0.009726] (custom_msg) Command: {'cmd': ['/bin/cmake', '/home/mingyu/rosyolo_final/custom_msg', '-DCMAKE_INSTALL_PREFIX=/home/mingyu/rosyolo_final/custom_msg/install/custom_msg'], 'cwd': '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('GTK_CSD', '0'), ('USER', 'mingyu'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/cuda/include:/usr/lib/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/mingyu'), ('DESKTOP_SESSION', 'unity'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1539'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mingyu'), ('JOURNAL_STREAM', '8:46432'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/bin:/usr/bin'), ('SESSION_MANAGER', 'local/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:@/tmp/.ICE-unix/2189,unix/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:/tmp/.ICE-unix/2189'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '9a5f6cd152d14e27ad18b3d240c045f8'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4f2996_9540_45c5_8728_dc420ff2069f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/mingyu/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'unity'), ('XAUTHORITY', '/home/mingyu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/mingyu'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/mingyu/COCO/cocodataset/api/cocoapi/PythonAPI:/home/mingyu/COCO/cocodataset/api3/cocoapi/PythonAPI'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.100078] (-) TimerEvent: {}
+[0.116683] (custom_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.165014] (custom_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.171080] (custom_msg) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc\n'}
+[0.200145] (-) TimerEvent: {}
+[0.233236] (custom_msg) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc -- works\n'}
+[0.234563] (custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300239] (-) TimerEvent: {}
+[0.310349] (custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.323312] (custom_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.323910] (custom_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326926] (custom_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++\n'}
+[0.395211] (custom_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ -- works\n'}
+[0.396280] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400299] (-) TimerEvent: {}
+[0.469728] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.483911] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.484438] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.486098] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.500374] (-) TimerEvent: {}
+[0.509209] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.509433] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /bin/python3\n'}
+[0.600486] (-) TimerEvent: {}
+[0.700772] (-) TimerEvent: {}
+[0.725263] (custom_msg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.751928] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.757474] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800871] (-) TimerEvent: {}
+[0.826948] (custom_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.854980] (custom_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.900992] (-) TimerEvent: {}
+[0.929974] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.972761] (custom_msg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.001085] (-) TimerEvent: {}
+[1.003805] (custom_msg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.070051] (custom_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.101199] (-) TimerEvent: {}
+[1.118142] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.148820] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /bin/python3 (found version "3.8.5") \n'}
+[1.201309] (-) TimerEvent: {}
+[1.294393] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.301403] (-) TimerEvent: {}
+[1.401621] (-) TimerEvent: {}
+[1.501865] (-) TimerEvent: {}
+[1.583873] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601958] (-) TimerEvent: {}
+[1.702194] (-) TimerEvent: {}
+[1.732403] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.756196] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.757305] (custom_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.781928] (custom_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.782428] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /bin/python3\n'}
+[1.782630] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.782748] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.802175] (custom_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.802294] (-) TimerEvent: {}
+[1.897920] (custom_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902394] (-) TimerEvent: {}
+[1.950244] (custom_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.952657] (custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/mingyu/rosyolo_final/custom_msg/build/custom_msg\n'}
+[1.957937] (custom_msg) CommandEnded: {'returncode': 0}
+[1.960639] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'build'}
+[1.960802] (custom_msg) Command: {'cmd': ['/bin/cmake', '--build', '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg', '--', '-j12', '-l12'], 'cwd': '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('GTK_CSD', '0'), ('USER', 'mingyu'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/cuda/include:/usr/lib/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/mingyu'), ('DESKTOP_SESSION', 'unity'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1539'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mingyu'), ('JOURNAL_STREAM', '8:46432'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/bin:/usr/bin'), ('SESSION_MANAGER', 'local/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:@/tmp/.ICE-unix/2189,unix/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:/tmp/.ICE-unix/2189'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '9a5f6cd152d14e27ad18b3d240c045f8'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4f2996_9540_45c5_8728_dc420ff2069f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/mingyu/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'unity'), ('XAUTHORITY', '/home/mingyu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/mingyu'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/mingyu/COCO/cocodataset/api/cocoapi/PythonAPI:/home/mingyu/COCO/cocodataset/api3/cocoapi/PythonAPI'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[1.995200] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__cpp\x1b[0m\n'}
+[1.995390] (custom_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.002503] (-) TimerEvent: {}
+[2.004886] (custom_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.102617] (-) TimerEvent: {}
+[2.202862] (-) TimerEvent: {}
+[2.212490] (custom_msg) StdoutLine: {'line': b'[  6%] Built target custom_msg__cpp\n'}
+[2.212709] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_generator_c\x1b[0m\n'}
+[2.224418] (custom_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.224610] (custom_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.224702] (custom_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.224880] (custom_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/ros2_yolo__functions.c.o\x1b[0m\n'}
+[2.264798] (custom_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_generator_c.so\x1b[0m\n'}
+[2.302574] (custom_msg) StdoutLine: {'line': b'[ 22%] Built target custom_msg__rosidl_generator_c\n'}
+[2.302923] (-) TimerEvent: {}
+[2.314212] (custom_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.314476] (custom_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.403033] (-) TimerEvent: {}
+[2.435164] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.449757] (custom_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/ros2_yolo__type_support.cpp.o\x1b[0m\n'}
+[2.459326] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.464568] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.472791] (custom_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/ros2_yolo__type_support.cpp.o\x1b[0m\n'}
+[2.479480] (custom_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/ros2_yolo__type_support.cpp.o\x1b[0m\n'}
+[2.503154] (-) TimerEvent: {}
+[2.531286] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c\x1b[0m\n'}
+[2.545938] (custom_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/ros2_yolo__type_support.cpp.o\x1b[0m\n'}
+[2.556623] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.570239] (custom_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/ros2_yolo__type_support.c.o\x1b[0m\n'}
+[2.578017] (custom_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.603264] (-) TimerEvent: {}
+[2.604062] (custom_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.622342] (custom_msg) StdoutLine: {'line': b'[ 51%] Built target custom_msg__rosidl_typesupport_c\n'}
+[2.638088] (custom_msg) StdoutLine: {'line': b'[ 51%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[2.703388] (-) TimerEvent: {}
+[2.755386] (custom_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.775420] (custom_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.796666] (custom_msg) StdoutLine: {'line': b'[ 58%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[2.803512] (-) TimerEvent: {}
+[2.831454] (custom_msg) StdoutLine: {'line': b'[ 58%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[2.903674] (-) TimerEvent: {}
+[2.912473] (custom_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.983899] (custom_msg) StdoutLine: {'line': b'[ 61%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.993077] (custom_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.003714] (-) TimerEvent: {}
+[3.103895] (-) TimerEvent: {}
+[3.182418] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.195522] (custom_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/ros2_yolo__type_support_c.cpp.o\x1b[0m\n'}
+[3.203967] (-) TimerEvent: {}
+[3.304197] (-) TimerEvent: {}
+[3.404453] (-) TimerEvent: {}
+[3.504693] (-) TimerEvent: {}
+[3.510124] (custom_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.584406] (custom_msg) StdoutLine: {'line': b'[ 70%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[3.593586] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg\x1b[0m\n'}
+[3.603512] (custom_msg) StdoutLine: {'line': b'[ 70%] Built target custom_msg\n'}
+[3.604754] (-) TimerEvent: {}
+[3.612316] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__py\x1b[0m\n'}
+[3.622436] (custom_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.704867] (-) TimerEvent: {}
+[3.805093] (-) TimerEvent: {}
+[3.905385] (-) TimerEvent: {}
+[4.005628] (-) TimerEvent: {}
+[4.009713] (custom_msg) StdoutLine: {'line': b'[ 74%] Built target custom_msg__py\n'}
+[4.019001] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__python\x1b[0m\n'}
+[4.047726] (custom_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/msg/_ros2_yolo_s.c.o\x1b[0m\n'}
+[4.105748] (-) TimerEvent: {}
+[4.124936] (custom_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__python.so\x1b[0m\n'}
+[4.165859] (custom_msg) StdoutLine: {'line': b'[ 80%] Built target custom_msg__python\n'}
+[4.175718] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.175956] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.176094] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.193721] (custom_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.193919] (custom_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.194859] (custom_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.205875] (-) TimerEvent: {}
+[4.269265] (custom_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.269437] (custom_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.271324] (custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.305997] (-) TimerEvent: {}
+[4.307956] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[4.308109] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[4.337104] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.347972] (custom_msg) CommandEnded: {'returncode': 0}
+[4.391985] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'install'}
+[4.401621] (custom_msg) Command: {'cmd': ['/bin/cmake', '--install', '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg'], 'cwd': '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('GTK_CSD', '0'), ('USER', 'mingyu'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/cuda/include:/usr/lib/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/mingyu'), ('DESKTOP_SESSION', 'unity'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1539'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mingyu'), ('JOURNAL_STREAM', '8:46432'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/bin:/usr/bin'), ('SESSION_MANAGER', 'local/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:@/tmp/.ICE-unix/2189,unix/mingyu-HP-Pavilion-Gaming-Laptop-16-a0xxx:/tmp/.ICE-unix/2189'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '9a5f6cd152d14e27ad18b3d240c045f8'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4f2996_9540_45c5_8728_dc420ff2069f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/mingyu/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'unity'), ('XAUTHORITY', '/home/mingyu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/mingyu'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingyu/rosyolo_final/custom_msg/build/custom_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=26012c89e8ea2b52104dfc6460989900'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/mingyu/COCO/cocodataset/api/cocoapi/PythonAPI:/home/mingyu/COCO/cocodataset/api3/cocoapi/PythonAPI'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[4.406085] (-) TimerEvent: {}
+[4.409611] (custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.409799] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg\n'}
+[4.409997] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.410197] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.410390] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.410525] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/ros2_yolo.h\n'}
+[4.410629] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.410743] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__type_support.h\n'}
+[4.410853] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__functions.h\n'}
+[4.410925] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__functions.c\n'}
+[4.411036] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__struct.h\n'}
+[4.411098] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/library_path.sh\n'}
+[4.411158] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/library_path.dsv\n'}
+[4.411273] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so\n'}
+[4.411430] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""\n'}
+[4.411543] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.411660] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.411766] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.411842] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.411912] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__rosidl_typesupport_fastrtps_c.h\n'}
+[4.412076] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[4.412197] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.412298] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.412404] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.412474] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.412541] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.412608] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.412778] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/dds_fastrtps\n'}
+[4.412890] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.412991] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.413094] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.413178] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.413247] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.413347] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__rosidl_typesupport_introspection_c.h\n'}
+[4.413456] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__type_support.c\n'}
+[4.413556] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.413623] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so\n'}
+[4.413746] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.413867] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so\n'}
+[4.413983] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""\n'}
+[4.414083] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.414205] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.414272] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.414363] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__struct.hpp\n'}
+[4.414426] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__builder.hpp\n'}
+[4.414485] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__traits.hpp\n'}
+[4.414546] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/ros2_yolo.hpp\n'}
+[4.414728] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg\n'}
+[4.414870] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg\n'}
+[4.414952] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail\n'}
+[4.415043] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.415198] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/include/custom_msg/msg/detail/ros2_yolo__type_support.cpp\n'}
+[4.415322] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[4.415404] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.415527] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so\n'}
+[4.415670] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[4.415732] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/pythonpath.sh\n'}
+[4.415792] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/pythonpath.dsv\n'}
+[4.415889] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/__init__.py\n'}
+[4.442764] (custom_msg) StdoutLine: {'line': b"Compiling '/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/__init__.py'...\n"}
+[4.446057] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg\n'}
+[4.446242] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/_ros2_yolo.py\n'}
+[4.446320] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/__init__.py\n'}
+[4.446383] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/_ros2_yolo_s.c\n'}
+[4.446474] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.446805] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.446953] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.447319] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.447482] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.447953] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.448223] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__python.so\n'}
+[4.448648] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mingyu/rosyolo_final/custom_msg/install/custom_msg/lib/libcustom_msg__python.so" to ""\n'}
+[4.448952] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/msg/Ros2Yolo.idl\n'}
+[4.449145] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/msg/Ros2Yolo.msg\n'}
+[4.449355] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg\n'}
+[4.449573] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg\n'}
+[4.449687] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh\n'}
+[4.449905] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv\n'}
+[4.450096] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/path.sh\n'}
+[4.450211] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/environment/path.dsv\n'}
+[4.450382] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/local_setup.bash\n'}
+[4.450525] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/local_setup.sh\n'}
+[4.450617] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/local_setup.zsh\n'}
+[4.450738] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/local_setup.dsv\n'}
+[4.450818] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/package.dsv\n'}
+[4.450919] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/ament_index/resource_index/packages/custom_msg\n'}
+[4.451042] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport.cmake\n'}
+[4.451194] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.451371] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.451503] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.451700] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake\n'}
+[4.451819] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.451973] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cppExport.cmake\n'}
+[4.452140] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.452267] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.452422] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake\n'}
+[4.452542] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.452657] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[4.452769] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.452882] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.452998] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.453109] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.453221] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.453331] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.453449] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake\n'}
+[4.453568] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake\n'}
+[4.453699] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/mingyu/rosyolo_final/custom_msg/install/custom_msg/share/custom_msg/package.xml\n'}
+[4.455775] (custom_msg) CommandEnded: {'returncode': 0}
+[4.506254] (-) TimerEvent: {}
+[4.523999] (custom_msg) JobEnded: {'identifier': 'custom_msg', 'rc': 0}
+[4.524594] (-) EventReactorShutdown: {}

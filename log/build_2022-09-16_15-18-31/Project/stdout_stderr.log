@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /bin/cc
+-- Check for working C compiler: /bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /bin/c++
+-- Check for working CXX compiler: /bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/mingyu/lofi/build/Project/devel
+-- Using CMAKE_PREFIX_PATH: /home/mingyu/lofi/devel;/opt/ros/noetic
+-- This workspace overlays: /home/mingyu/lofi/devel;/opt/ros/noetic
+-- Found PythonInterp: /bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/mingyu/lofi/build/Project/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - opencv
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'opencv'
+-- ==> add_subdirectory(opencv)
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mingyu/lofi/build/Project
+[35m[1mScanning dependencies of target opencv_sub[0m
+[ 50%] [32mBuilding CXX object opencv/CMakeFiles/opencv_sub.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../devel/lib/opencv/opencv_sub[0m
+[100%] Built target opencv_sub
+-- Install configuration: ""
+-- Installing: /home/mingyu/lofi/install/Project/_setup_util.py
+-- Installing: /home/mingyu/lofi/install/Project/env.sh
+-- Installing: /home/mingyu/lofi/install/Project/setup.bash
+-- Installing: /home/mingyu/lofi/install/Project/local_setup.bash
+-- Installing: /home/mingyu/lofi/install/Project/setup.sh
+-- Installing: /home/mingyu/lofi/install/Project/local_setup.sh
+-- Installing: /home/mingyu/lofi/install/Project/setup.zsh
+-- Installing: /home/mingyu/lofi/install/Project/local_setup.zsh
+-- Installing: /home/mingyu/lofi/install/Project/.rosinstall
+-- Installing: /home/mingyu/lofi/install/Project/lib/pkgconfig/opencv.pc
+-- Installing: /home/mingyu/lofi/install/Project/share/opencv/cmake/opencvConfig.cmake
+-- Installing: /home/mingyu/lofi/install/Project/share/opencv/cmake/opencvConfig-version.cmake
+-- Up-to-date: /home/mingyu/lofi/install/Project/share/opencv/package.xml

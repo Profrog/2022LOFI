@@ -1,0 +1,30 @@
+[0.268s] Invoking command in '/home/mingyu/lofi/ros2yolo': AMENT_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2yolo build --build-base /home/mingyu/lofi/build/ros2yolo/build install --prefix /home/mingyu/lofi/install/ros2yolo --record /home/mingyu/lofi/build/ros2yolo/install.log --single-version-externally-managed
+[0.505s] running egg_info
+[0.505s] creating ../build/ros2yolo/ros2yolo.egg-info
+[0.505s] writing ../build/ros2yolo/ros2yolo.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../build/ros2yolo/ros2yolo.egg-info/dependency_links.txt
+[0.506s] writing entry points to ../build/ros2yolo/ros2yolo.egg-info/entry_points.txt
+[0.506s] writing requirements to ../build/ros2yolo/ros2yolo.egg-info/requires.txt
+[0.506s] writing top-level names to ../build/ros2yolo/ros2yolo.egg-info/top_level.txt
+[0.507s] writing manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+[0.537s] reading manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+[0.537s] writing manifest file '../build/ros2yolo/ros2yolo.egg-info/SOURCES.txt'
+[0.537s] running build
+[0.538s] running build_py
+[0.538s] creating /home/mingyu/lofi/build/ros2yolo/build
+[0.538s] creating /home/mingyu/lofi/build/ros2yolo/build/lib
+[0.538s] creating /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+[0.538s] copying ros2yolo/yolo_map.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+[0.538s] copying ros2yolo/ros2_yolo.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+[0.538s] copying ros2yolo/__init__.py -> /home/mingyu/lofi/build/ros2yolo/build/lib/ros2yolo
+[0.538s] running install
+[0.538s] running install_lib
+[0.540s] running install_data
+[0.540s] running install_egg_info
+[0.542s] removing '/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages/ros2yolo-0.0.0-py3.8.egg-info' (and everything under it)
+[0.542s] Copying ../build/ros2yolo/ros2yolo.egg-info to /home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages/ros2yolo-0.0.0-py3.8.egg-info
+[0.543s] running install_scripts
+[0.557s] Installing ros2_yolo script to /home/mingyu/lofi/install/ros2yolo/lib/ros2yolo
+[0.557s] Installing yolo_map script to /home/mingyu/lofi/install/ros2yolo/lib/ros2yolo
+[0.558s] writing list of installed files to '/home/mingyu/lofi/build/ros2yolo/install.log'
+[0.575s] Invoked command in '/home/mingyu/lofi/ros2yolo' returned '0': AMENT_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mingyu/lofi/install/ros2yolo/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2yolo build --build-base /home/mingyu/lofi/build/ros2yolo/build install --prefix /home/mingyu/lofi/install/ros2yolo --record /home/mingyu/lofi/build/ros2yolo/install.log --single-version-externally-managed

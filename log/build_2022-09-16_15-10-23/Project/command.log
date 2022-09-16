@@ -1,0 +1,6 @@
+Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake /home/mingyu/lofi/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/Project
+Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake /home/mingyu/lofi/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/Project
+Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake --build /home/mingyu/lofi/build/Project -- -j12 -l12
+Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake --build /home/mingyu/lofi/build/Project -- -j12 -l12
+Invoking command in '/home/mingyu/lofi/build/Project': /bin/cmake --install /home/mingyu/lofi/build/Project
+Invoked command in '/home/mingyu/lofi/build/Project' returned '0': /bin/cmake --install /home/mingyu/lofi/build/Project
