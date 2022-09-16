@@ -27,7 +27,7 @@ path = os.getcwd()
 
 # Input the directory where the images are kept. Note that the images have to be named in order for this particular implementation
 #img_dir = path + '/Sample Dataset/'
-img_dir = '/home/arihant/Desktop/gustav/'
+img_dir = '/home/white/Desktop/git/sfm-mvs/photos/'
 
 # A provision for bundle adjustment is added, for the newly added points from PnP, before being saved into point cloud. Note that it is still extremely slow
 bundle_adjustment = False
