@@ -3,6 +3,12 @@
 
 import netifaces as ni
 import os
+from gpiozero import LED
+import time
+yellow = LED(4)
+start0 = time.time()
+
+
 ip = ni.ifaddresses('wlan0')[ni.AF_INET][0]['addr']
 
 
@@ -39,4 +45,8 @@ content.write("\nexport ROS_HOSTNAME=" + str(ip) + "\n")
 content.write("export ROS_MASTER_URI=http://" + str(ip) + ":11311")
 #print(fileContent)
 
+while time.time() - start0 < 3:
+ yellow.on()
+
+yellow.off()
 content.close()
