@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="opencv" type="opencv_pub" name="opencv_pub"/>
+</launch>
