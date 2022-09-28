@@ -46,3 +46,10 @@
 5. 라즈베리파이 터미널에서 rosrun opencv opencv_pub 실행
 
 6. 노트북 터미널에서 rosrun opencv opencv_sub 실행
+
+
+automatic startup terminal
+https://www.addictivetips.com/ubuntu-linux-tips/autostart-programs-on-gnome-shell/
+
+
+
