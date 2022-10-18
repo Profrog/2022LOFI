@@ -295,7 +295,7 @@ mesh = o3d.geometry.TriangleMesh.create_coordinate_frame()
 
 
 
-densify = False  # Added in case we will merge densification step in this code. Mostly it will be considered separately, though still added here.
+densify = True  # Added in case we will merge densification step in this code. Mostly it will be considered separately, though still added here.
 
 # Setting the Reference two frames
 img0 = img_downscale(cv2.imread(img_dir + '/' + images[i]), downscale)
