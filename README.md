@@ -1,48 +1,23 @@
-# Stereo 3D Reconstruction
+# 포인트 클라우드 & 메쉬화
 
-The README is divided into two parts,
-1. Structure from Motion (For camera parameters and sparse reconstruction): Here, incremental structure from motion is implemented.
-2. Multiview Stereo (For dense reconstruction): Will be done later.
+1. 포인트 클라우드: 사진을 바탕으로 포인트 클라우드 ply 파일을 생성
+2. 메쉬화: ply 파일을 바탕으로 점들을 이어 면이 생성된 obj 메쉬 파일을 생성
 
-## Structure from Motion (SfM)
+## 포인트 클라우드
 
-### Steps to Execute
+### 사용법
 
-1. Clone the repository as ```git clone https://github.com/FlagArihant2000/sfm-mvs```
-2. ```cd sfm-mvs```. The directory for the image directory (Line 30), along with the camera parameters (Line 16) can be updated accordingly.
-3. Run ```python3 sfm.py```.
-4. If executed successfully, open ```sparse.ply``` to analyse the sparse reconstruction using meshlab.
+1. 깃 클론을 통해 내려받는다.
+2. 해당 폴더에 들어가 sfm.py를 열어 30번 라인에 있는 img_dir을 본인의 사진이 있는 디렉토리로 바꿔준다.
+3. 디렉토리 경로를 수정했으면 파일을 저장한 뒤, 터미널 창을 열고 ```python sfm.py```을 실행
+4. 성공적으로 실행됐다면 Point_Cloud 폴더 안에 ```sparse.ply```가 생성되어 있을 것이다.
+5. 이를 Mesh Lab으로 불러오면 포인트 클라우드 파일을 열어볼 수 있다.
+6. 메쉬화를 하고 싶다면 그 후에 gen_3d_mesh.ipynp를 주피터 노트북으로 열어 셀 단위로 모두 실행한다.
+7. 모두 실행되었다면 output 폴더에 크기별로 메쉬화된 obj 파일이 생성된다.
+8. 이를 블렌더나 Mesh Lab으로 불러와서 볼 수 있다.
 
-### Pipeline
-1. Acquire the first image pair.
-2. Detection of features using SIFT.
-3. Feature matching using brute force KNN. Good feature matches are by taking the distance ratio (According to Lowe's paper) as 0.7.
-4. Calculation of Essential matrix, to relate the camera locations. Outliers are rejected using RANSAC.
-5. Equivalent rotation matrix (R) and translation vector (t) are taken from essential matrix using SVD.
-6. Projection matrix for each camera location is calculated, and triangulation of point correspondences are calculated.
-7. The correctness of triangulated points is analysed using re-projection error. The triangulated points are re - mapped onto the image plane and the deviation between the matching points is calculated. (Note that in the code, rotation matrix is converted into vector using Rodrigues equation). This will be the base point cloud, onto which newly registered images will be added.
-8. A new image is taken into consideration, which shall be registered using Perspective - n - Point (PnP). For this, we need the 3D - 2D correspondence for the new image. So, the features common for image 2 and 3 are taken into consideration and only those points are taken for PnP which are visible in the newly added image (data association). After PnP, we get the world pose estimate of the image.
-9. This image can now see new points, which were not there in original point cloud. So, triangulation is done for the same. Again the reprojection error is calculated.
-10. Now, for each newly added image, the pipeline will repeat from step 8.
+### 데이터셋
 
-### Dataset
+http://www.maths.lth.se/matematiklth/personal/calle/dataset/dataset.html
+이 곳에 들어가면 다양한 어라운드 뷰 사진을 받아볼 수 있다. 크롬으로 들어갈 경우 파일 다운이 안 될 수 있으니, 엣지 브라우저를 통해 들어가자.
 
-The dataset used is a statue of Gustav II Adolf ([Link](http://www.maths.lth.se/matematiklth/personal/calle/dataset/dataset.html)). All the images have been used for obtaining the sparse point cloud.
-
-A sample image:
-<img src="image.jpg" alt="Image" style="zoom:25%;" />
-
-
-
-### Output
-
-<img src="Result/result.png" alt="Image" style="zoom:50%;" />
-
-
-
-### Team Members
-
-1. Arihant Gaur
-2. Saurabh Kemekar
-
-IMPORTANT: Due to the lack of time, it wasn't possible to extend this project. Maybe in the near future, we would be able to optimize bundle adjustment, increase data association size, and incorporate Multiview Stereo. This is purely a project to learn and understand 3D Reconstruction of large scale data, and implement in an understandable manner, using python. Do NOT use it for research purposes. Use other incremental SfM pipelines like COLMAP.
