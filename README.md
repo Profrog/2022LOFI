@@ -14,7 +14,8 @@
 3. 디렉토리 경로를 수정했으면 파일을 저장한 뒤, 터미널 창을 열고 ```python sfm.py```을 실행  
 
 > pip3 install open3d  
-> pip3 install opencv-contrib-python  
+> pip3 install opencv-contrib-python
+> pip3 install --upgrade requests    
 > python sfm.py  
 
 5. 성공적으로 실행됐다면 Point_Cloud 폴더 안에 ```sparse.ply```가 생성되어 있을 것이다.
