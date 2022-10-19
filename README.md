@@ -59,7 +59,6 @@ wlo1 : inet 확인
 
 5. build 폴더 삭제 후
 
-> source /opt/ros/noetic/setup.bash
 > colcon build
 
 6. catkin_ws 폴더 안으로 들어가서
