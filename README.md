@@ -7,7 +7,9 @@
 
 ### 사용법
 
-1. 깃 클론을 통해 내려받는다.
+1. 깃 클론을 통해 내려받는다.   
+> git clone https://github.com/Profrog/2022competition -b mingyu  
+
 2. 해당 폴더에 들어가 sfm.py를 열어 30번 라인에 있는 img_dir을 본인의 사진이 있는 디렉토리로 바꿔준다.
 3. 디렉토리 경로를 수정했으면 파일을 저장한 뒤, 터미널 창을 열고 ```python sfm.py```을 실행
 4. 성공적으로 실행됐다면 Point_Cloud 폴더 안에 ```sparse.ply```가 생성되어 있을 것이다.
