@@ -54,3 +54,9 @@ https://www.addictivetips.com/ubuntu-linux-tips/autostart-programs-on-gnome-shel
 service enroll  
 https://nasanx2001.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-1804-%EC%9E%90%EB%8F%99%EC%8B%A4%ED%96%89-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%93%B1%EB%A1%9D  
 
+-------------------------------------------------------------------
+# 현재 까지의 수정사항
+
+1. pub.cpp에서 imshow를 통해 이미지 확인하는 과정 생략
+
+2. 
