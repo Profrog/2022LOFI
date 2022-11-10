@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msg",
+  "non_idl_tuples": [
+    "/home/mingyu/lofi/custom_msg:msg/Ros2Yolo.msg"
+  ]
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+gnome-terminal -- ./lofi0
+cd catkin_ws
+./cam0
+
