@@ -1,3 +1,10 @@
+# lofi_colmap.py 사용법
+COLMAP이 설치된 로컬에서 실행해야 합니다. lofi_colmap.py가 다운로드 된 폴더에는 images라는 폴더가 있어야 합니다. images 안에 원하는 사진들을 넣으세요.
+lofi_colmap.py 파일의 37번째 라인의 해당 코드
+```str0 = "/home/white/Desktop/git/Webcam_Algorithm/lofi"```
+를 본인의 디렉토리에 맞게 바꿔줍니다.
+그 후 터미널 창에서 ```python lofi_colmap.py```를 실행합니다.
+
 # 포인트 클라우드 & 메쉬화
 
 1. 포인트 클라우드: 사진을 바탕으로 포인트 클라우드 ply 파일을 생성
