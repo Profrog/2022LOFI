@@ -35,7 +35,7 @@ class Dialog(QDialog):
         
  
     def ros0(self):
-        os.system("./lofi0")
+        os.system("python3 colmap0.py")
 		 
 		 
     def camera_r10(self):

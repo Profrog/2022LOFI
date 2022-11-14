@@ -58,7 +58,7 @@ def colmap0():
     --input_path " + str0 + "/sparse/0 \
     --output_path " + str0 + "/dense \
     --output_type COLMAP \
-    --max_image_size 200"
+    --max_image_size 300"
 	os.system(str1)
 
 

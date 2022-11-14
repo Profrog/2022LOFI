@@ -12,7 +12,7 @@ import base64
 import cv2
 import io
 
-from PIL import Image
+from PIL import Image,ImageEnhance
 from datetime import datetime
 import argparse
 import time
@@ -23,8 +23,6 @@ import re
 import math
 from PyQt5.QtWidgets import QApplication, QLabel
 import shutil 
-
-
 
 ######about image###########
 
@@ -51,6 +49,8 @@ global d_info0
  
 global seq
 seq = 0 
+
+alpha = 1.0
  
 #### about data #####
   
@@ -66,24 +66,23 @@ def encode_img(img_fn):#encoding for img to string
  except BaseException as b:
   print("image에서 string 변환 중 오류")
   
-
-def decode_img(message): #decoding for string to img
+def decode_img(): #decoding for string to img
  try: 
-  imgdata = base64.b64decode(str(message))
-  image = Image.open(io.BytesIO(imgdata))
- 
   global seq #detection된 100개의 사진 까지만 capture(저장 용량 문제) 
   if seq < 100:
    seq +=1
        
   else:
    seq = 1
- 
+   
   yolo_image = y_image_dir + str(seq) + ".jpg"
-  print(yolo_image + " saving") 
-  image.save(yolo_image) #yolo_image here 
+  
+  frame = cv2.imread('image.jpg')
+  frame = np.clip((1 + alpha) * frame - 128 * alpha, 0, 255).astype(np.uint8)
+  cv2.imwrite(yolo_image,frame)  
+  print(yolo_image + " saving")  
  except BaseException as c:
-  print("string에서 image 변환 중 오류")
+  print("string에서 image 변환 중 오류")  
   
 
 ####image <-> string####  
@@ -114,7 +113,7 @@ class LOFIPUB(Node):
        print("giving colmap siginal")
       
       if os.path.isfile('start.txt'):     
-       decode_img(image0)
+       decode_img()
        
       self.publisher_.publish(msg)              
      except:
@@ -125,7 +124,7 @@ class LOFIPUB(Node):
 def main(args=None):
 
     rclpy.init(args=args)
-    lofi_node = LOFIPUB(1) # sensor frequerency is here
+    lofi_node = LOFIPUB(1.2) # sensor frequerency is here
     rclpy.spin(lofi_node)
    
     lofi_node.destroy_node()
