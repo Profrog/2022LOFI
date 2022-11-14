@@ -1,29 +1,12 @@
-# 2022competition
+a1. 패키지 세팅 https://github.com/Profrog/2022competition/tree/mingyu 참조
 
+a2. 작동모드
 
-a1. 노트북-라즈베리파이4 이미지 송수신
+시연영상 : https://www.youtube.com/watch?v=yYNCbWS6Buk
+./local : webcam + lofi + colmap 노드 실행
+./lofi0 : lofi + colmap 노드 실행
 
-1. sudo ifconfig  
-
-![image](https://user-images.githubusercontent.com/26535065/189612367-c2f06c83-b915-4bd9-b3c1-fcd5cdd3093c.png)  
-wlo1 : inet 확인  
-
-
-gedit ~/.bashrc  
-
-
-
-![image](https://user-images.githubusercontent.com/26535065/189612950-8d33f381-0557-4466-b257-29c5eb0a5b96.png)
-
-라즈베리파이 : host랑 master모두 라즈베리파이의 inet 주소 기입    
-노트북: master -> 라즈베리파이, host -> 노트북 것 기입  
-
-source ~/.bashrc
-
-노트북 쪽    
-rosrun opencv opencv_sub  
-  
-
-라즈베리파이 쪽 
-roscore  
-(다른 터미널) rosrun opencv opencv_pub    
+a3 통합계획
+1차 유선 통합 (최적화된 colmap 노드 포함)
+2차 무선 통합
+3차 드론 통합
