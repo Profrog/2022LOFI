@@ -1,0 +1,4 @@
+Invoking command in '/home/mingyu/lofi/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/build/custom_msg -- -j12 -l12
+Invoked command in '/home/mingyu/lofi/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/build/custom_msg -- -j12 -l12
+Invoking command in '/home/mingyu/lofi/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/build/custom_msg
+Invoked command in '/home/mingyu/lofi/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/build/custom_msg

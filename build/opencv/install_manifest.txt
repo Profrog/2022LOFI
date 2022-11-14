@@ -1,0 +1,4 @@
+/home/mingyu/lofi/install/opencv/lib/pkgconfig/opencv.pc
+/home/mingyu/lofi/install/opencv/share/opencv/cmake/opencvConfig.cmake
+/home/mingyu/lofi/install/opencv/share/opencv/cmake/opencvConfig-version.cmake
+/home/mingyu/lofi/install/opencv/share/opencv/package.xml

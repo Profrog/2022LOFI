@@ -1,0 +1,8 @@
+Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake /home/mingyu/lofi/catkin_ws/src/opencv -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/opencv
+Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake /home/mingyu/lofi/catkin_ws/src/opencv -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/opencv
+Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv -- -j12 -l12
+Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv -- -j12 -l12
+Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv --target tests -- -j12 -l12
+Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv --target tests -- -j12 -l12
+Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --install /home/mingyu/lofi/build/opencv
+Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --install /home/mingyu/lofi/build/opencv

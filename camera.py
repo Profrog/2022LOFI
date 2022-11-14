@@ -68,15 +68,15 @@ while True :
              break
                             
             ret, frame = vc.read()
-            #frame = cv2.resize(frame, (1100, 700))   
+            frame = cv2.resize(frame, (640, 480))   
             cv2.imshow('Video Window', frame)
             img_name = dir0 + str(i) + '.jpg'
             cv2.imwrite('image.jpg',frame)
-            test_img = Image.open('image.jpg')
-            change_color = ImageEnhance.Color(test_img)
-            color_output = change_color.enhance(1.5)
-            color_output.save(img_name)
-            colar0 = colar0 + 0.05
+            #test_img = Image.open('image.jpg')
+            #change_color = ImageEnhance.Color(test_img)
+            #color_output = change_color.enhance(1.1)
+            #color_output.save(img_name)
+            #colar0 = colar0 + 0.05
             
             #dir1 = dir0 + str(i) + '.jpg'
             #dir1 = 'image.jpg'
