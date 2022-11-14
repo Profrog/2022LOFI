@@ -24,7 +24,7 @@ i = 0
 
 dir00 = 'images'
 siginal00 ='start.txt'
-
+alpha = 1.0
 
 if os.path.exists(dir00):
  shutil.rmtree(dir00) 
@@ -53,7 +53,7 @@ while True :
         start = time.time()
         chk = 0         
         vc.set(10,0.5)
-        colar0 = 0
+        colar0 = 0.5
 
 
         while True:
@@ -68,15 +68,18 @@ while True :
              break
                             
             ret, frame = vc.read()
-            #frame = cv2.resize(frame, (1100, 700))   
+            #frame = cv2.resize(frame, (640, 480))   
             cv2.imshow('Video Window', frame)
-            img_name = dir0 + str(i) + '.jpg'
+            #img_name = dir0 + str(i) + '.jpg'
+            #frame = np.clip((1 + alpha) * frame - 128 * alpha, 0, 255).astype(np.uint8)
             cv2.imwrite('image.jpg',frame)
-            test_img = Image.open('image.jpg')
-            change_color = ImageEnhance.Color(test_img)
-            color_output = change_color.enhance(1.5)
-            color_output.save(img_name)
-            colar0 = colar0 + 0.05
+            #test_img = Image.open('image.jpg')
+            #change_color = ImageEnhance.Color(test_img)
+            
+            
+            #color_output = change_color.enhance(0.5)
+            #color_output.save(img_name)
+            #colar0 = colar0 + 0.02
             
             #dir1 = dir0 + str(i) + '.jpg'
             #dir1 = 'image.jpg'
@@ -85,7 +88,7 @@ while True :
             #if True:
              #cv2.imwrite(dir1,frame)
             i = i+1
-            time.sleep(0.5)       
+            time.sleep(1)       
 
             #image = cv2.imread('image.jpg')
             

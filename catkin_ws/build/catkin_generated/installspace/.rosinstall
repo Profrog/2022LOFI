@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mingyu/lofi/catkin_ws/install/setup.sh

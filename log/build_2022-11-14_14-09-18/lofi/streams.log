@@ -1,0 +1,25 @@
+[0.691s] Invoking command in '/home/mingyu/lofi/lofi': CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:/home/mingyu/lofi/install/opencv:/opt/ros/noetic LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/mingyu/lofi/install/lofi/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:/home/mingyu/lofi/install/lofi/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/lofi build --build-base /home/mingyu/lofi/build/lofi/build install --prefix /home/mingyu/lofi/install/lofi --record /home/mingyu/lofi/build/lofi/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.927s] writing ../build/lofi/lofi.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../build/lofi/lofi.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../build/lofi/lofi.egg-info/entry_points.txt
+[0.927s] writing requirements to ../build/lofi/lofi.egg-info/requires.txt
+[0.927s] writing top-level names to ../build/lofi/lofi.egg-info/top_level.txt
+[0.957s] reading manifest file '../build/lofi/lofi.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../build/lofi/lofi.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.958s] running build_py
+[0.958s] copying lofi/lofi0.py -> /home/mingyu/lofi/build/lofi/build/lib/lofi
+[0.958s] running install
+[0.959s] running install_lib
+[0.960s] copying /home/mingyu/lofi/build/lofi/build/lib/lofi/lofi0.py -> /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi
+[0.960s] byte-compiling /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi/lofi0.py to lofi0.cpython-38.pyc
+[0.962s] running install_data
+[0.962s] running install_egg_info
+[0.964s] removing '/home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi-0.0.0-py3.8.egg-info' (and everything under it)
+[0.964s] Copying ../build/lofi/lofi.egg-info to /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi-0.0.0-py3.8.egg-info
+[0.965s] running install_scripts
+[0.979s] Installing colmap script to /home/mingyu/lofi/install/lofi/lib/lofi
+[0.979s] Installing lofi00 script to /home/mingyu/lofi/install/lofi/lib/lofi
+[0.979s] writing list of installed files to '/home/mingyu/lofi/build/lofi/install.log'
+[1.001s] Invoked command in '/home/mingyu/lofi/lofi' returned '0': CMAKE_PREFIX_PATH=/home/mingyu/lofi/install/custom_msg:/home/mingyu/lofi/install/opencv:/opt/ros/noetic LD_LIBRARY_PATH=/home/mingyu/lofi/install/custom_msg/lib:/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/mingyu/lofi/install/lofi/lib/python3.8/site-packages:/home/mingyu/lofi/install/custom_msg/lib/python3.8/site-packages:/home/mingyu/lofi/install/lofi/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/lofi build --build-base /home/mingyu/lofi/build/lofi/build install --prefix /home/mingyu/lofi/install/lofi --record /home/mingyu/lofi/build/lofi/install.log --single-version-externally-managed

@@ -1,0 +1,13 @@
+[0.018s] Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv -- -j12 -l12
+[0.064s] [100%] Built target opencv_sub
+[0.074s] Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv -- -j12 -l12
+[0.108s] Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv --target tests -- -j12 -l12
+[0.159s] Built target tests
+[0.168s] Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --build /home/mingyu/lofi/build/opencv --target tests -- -j12 -l12
+[0.209s] Invoking command in '/home/mingyu/lofi/build/opencv': /usr/bin/cmake --install /home/mingyu/lofi/build/opencv
+[0.218s] -- Install configuration: ""
+[0.218s] -- Up-to-date: /home/mingyu/lofi/install/opencv/lib/pkgconfig/opencv.pc
+[0.218s] -- Up-to-date: /home/mingyu/lofi/install/opencv/share/opencv/cmake/opencvConfig.cmake
+[0.218s] -- Up-to-date: /home/mingyu/lofi/install/opencv/share/opencv/cmake/opencvConfig-version.cmake
+[0.218s] -- Up-to-date: /home/mingyu/lofi/install/opencv/share/opencv/package.xml
+[0.219s] Invoked command in '/home/mingyu/lofi/build/opencv' returned '0': /usr/bin/cmake --install /home/mingyu/lofi/build/opencv

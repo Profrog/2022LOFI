@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/lofi/lofi.egg-info
+writing ../build/lofi/lofi.egg-info/PKG-INFO
+writing dependency_links to ../build/lofi/lofi.egg-info/dependency_links.txt
+writing entry points to ../build/lofi/lofi.egg-info/entry_points.txt
+writing requirements to ../build/lofi/lofi.egg-info/requires.txt
+writing top-level names to ../build/lofi/lofi.egg-info/top_level.txt
+writing manifest file '../build/lofi/lofi.egg-info/SOURCES.txt'
+reading manifest file '../build/lofi/lofi.egg-info/SOURCES.txt'
+writing manifest file '../build/lofi/lofi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mingyu/lofi/build/lofi/build
+creating /home/mingyu/lofi/build/lofi/build/lib
+creating /home/mingyu/lofi/build/lofi/build/lib/lofi
+copying lofi/__init__.py -> /home/mingyu/lofi/build/lofi/build/lib/lofi
+copying lofi/lofi0.py -> /home/mingyu/lofi/build/lofi/build/lib/lofi
+copying lofi/colmap.py -> /home/mingyu/lofi/build/lofi/build/lib/lofi
+running install
+running install_lib
+creating /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi
+copying /home/mingyu/lofi/build/lofi/build/lib/lofi/__init__.py -> /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi
+copying /home/mingyu/lofi/build/lofi/build/lib/lofi/lofi0.py -> /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi
+copying /home/mingyu/lofi/build/lofi/build/lib/lofi/colmap.py -> /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi
+byte-compiling /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi/lofi0.py to lofi0.cpython-38.pyc
+byte-compiling /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi/colmap.py to colmap.cpython-38.pyc
+running install_data
+creating /home/mingyu/lofi/install/lofi/share/ament_index
+creating /home/mingyu/lofi/install/lofi/share/ament_index/resource_index
+creating /home/mingyu/lofi/install/lofi/share/ament_index/resource_index/packages
+copying resource/lofi -> /home/mingyu/lofi/install/lofi/share/ament_index/resource_index/packages
+copying package.xml -> /home/mingyu/lofi/install/lofi/share/lofi
+running install_egg_info
+Copying ../build/lofi/lofi.egg-info to /home/mingyu/lofi/install/lofi/lib/python3.8/site-packages/lofi-0.0.0-py3.8.egg-info
+running install_scripts
+Installing colmap script to /home/mingyu/lofi/install/lofi/lib/lofi
+Installing lofi00 script to /home/mingyu/lofi/install/lofi/lib/lofi
+writing list of installed files to '/home/mingyu/lofi/build/lofi/install.log'

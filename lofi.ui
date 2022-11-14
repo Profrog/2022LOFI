@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>LOFI</string>
   </property>
   <widget class="QPushButton" name="camera">
    <property name="geometry">
@@ -29,14 +29,92 @@
   <widget class="QPushButton" name="ros">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>280</x>
      <y>10</y>
      <width>111</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
-    <string>ros_start</string>
+    <string>colmap_start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="camera_r1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cam_rec_start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="camera_r2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cam_rec_end</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fly">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>open fly</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="local">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>141</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>local</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ros_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>network</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="obj">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>70</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>open obj</string>
    </property>
   </widget>
  </widget>

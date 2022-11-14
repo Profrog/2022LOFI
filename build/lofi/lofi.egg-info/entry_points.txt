@@ -1,0 +1,4 @@
+[console_scripts]
+colmap = lofi.colmap:main
+lofi00 = lofi.lofi0:main
+
