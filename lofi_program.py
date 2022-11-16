@@ -27,6 +27,7 @@ class Dialog(QDialog):
         self.camera_r1.clicked.connect(self.camera_r10)
         self.camera_r2.clicked.connect(self.camera_r20)
         self.local.clicked.connect(self.local0)
+        self.network.clicked.connect(self.network0)
         self.fly.clicked.connect(self.fly0)
         self.obj.clicked.connect(self.obj0)
  
@@ -51,14 +52,17 @@ class Dialog(QDialog):
         
            
     def local0(self):
-        os.system("./local")	
+        os.system("./local")
+        
+    def network0(self):
+        os.system("./network")	    	
         
         
     def fly0(self):
         os.system("meshlab result/fused0.ply")
     
     def obj0(self):
-        os.system("meshlab result/fused0.ply")	           	        
+        os.system("meshlab result/meshed-poisson.ply")	           	        
 	 
 	 
 app = QApplication(sys.argv)

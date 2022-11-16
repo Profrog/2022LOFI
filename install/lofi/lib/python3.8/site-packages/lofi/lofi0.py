@@ -78,7 +78,7 @@ def decode_img(): #decoding for string to img
   yolo_image = y_image_dir + str(seq) + ".jpg"
   
   frame = cv2.imread('image.jpg')
-  frame = np.clip((1 + alpha) * frame - 128 * alpha, 0, 255).astype(np.uint8)
+  #frame = np.clip((1 + alpha) * frame - 128 * alpha, 0, 255).astype(np.uint8)
   cv2.imwrite(yolo_image,frame)  
   print(yolo_image + " saving")  
  except BaseException as c:

@@ -9,6 +9,7 @@
 #include <string>
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
+#include <unistd.h>
 
 using namespace std;
 
@@ -52,7 +53,7 @@ void imageCallback(const std_msgs::UInt8MultiArray::ConstPtr& array)
   try
   {
     cv::Mat frame = cv::imdecode(array->data, 1);
-    //cv::imshow("view", frame);
+    cv::imshow("view", frame);
     //cv::imwrite("~/lofi/image.jpg",frame);
     //cv::imwrite("/home/kjjgo35/imagesave/image.jpg",frame);
     calculate_focal_measure(frame);

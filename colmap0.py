@@ -75,7 +75,14 @@ def colmap0():
     --input_type geometric \
     --output_path " + str0 + "/result/fused0.ply"
 	os.system(str1)
-
+	
+	
+	str1 = "colmap poisson_mesher \
+    --input_path " + str0 + "/result/fused0.ply \
+    --output_path " + str0 + "/result/meshed-poisson.ply"
+	os.system(str1)
+	
+	
 	print("time used : + " +  str(time.time() - start0))
 
 

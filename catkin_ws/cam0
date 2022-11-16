@@ -1,5 +1,6 @@
 #!/bin/bash
 # gnome-terminal -- ./serial_sh
-cd catkin_ws
+#cd catkin_ws
 #source ~/.bashrc
+source devel/setup.bash
 rosrun opencv opencv_sub

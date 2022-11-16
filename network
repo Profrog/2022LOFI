@@ -1,5 +1,6 @@
 #!/bin/bash
-gnome-terminal -- ./lofi0
-cd catkin_ws
-./cam0
+#gnome-terminal -- ./lofi0
+#cd catkin_ws
+python3 make_start.py
+gnome-terminal -- ./network_control
 
