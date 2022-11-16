@@ -1,0 +1,8 @@
+#!/bin/bash
+#gnome-terminal -- ./lofi0
+#cd catkin_ws
+gnome-terminal -- ./lofi0
+cd catkin_ws
+./cam0
+cd ..
+python3 make_end.py

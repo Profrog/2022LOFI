@@ -91,7 +91,7 @@
     <string>local</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="ros_4">
+  <widget class="QPushButton" name="network">
    <property name="geometry">
     <rect>
      <x>130</x>
