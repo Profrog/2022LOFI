@@ -25,6 +25,7 @@
 #include <sys/socket.h>
 #include <netdb.h>
 #include <arpa/inet.h>
+#include <stdio.h>
 #include <string.h>
 #include <string>
 
@@ -41,7 +42,8 @@ using namespace std::chrono_literals;
  
 int main(int argc, char *argv[]) {
 
-
+  FILE *w_file = NULL;
+  cout << "Code Start\n";
   int listening = socket(AF_INET, SOCK_STREAM, 0);
 
   if (listening == -1)
@@ -49,7 +51,7 @@ int main(int argc, char *argv[]) {
       cerr << "Can't create a socket! Quitting" << endl;
       return -1;
   }
-
+  cout << "Socket has been created~\n";
   // Bind the ip address and port to a socket
   sockaddr_in hint;
   hint.sin_family = AF_INET;
@@ -60,18 +62,22 @@ int main(int argc, char *argv[]) {
 
   // Tell Winsock the socket is for listening
   listen(listening, SOMAXCONN);
-
   // Wait for a connection
-  sockaddr_in client;
+  // sockaddr_in client;
+  sockaddr_in client = {0};
   socklen_t clientSize = sizeof(client);
-
-  int clientSocket = accept(listening, (sockaddr*)&client, &clientSize);
-
+  cout << "11\n";
+  int clientSocket = accept(listening, (sockaddr *)&client, &clientSize);
+  cout << clientSocket << "\n";
+  // int clientSocket = accept(listening, 0, 0);
+  cout << "22\n";
   char host[NI_MAXHOST];      // Client's remote name
   char service[NI_MAXSERV];   // Service (i.e. port) the client is connect on
 
   memset(host, 0, NI_MAXHOST); // same as memset(host, 0, NI_MAXHOST);
   memset(service, 0, NI_MAXSERV);
+  
+  cout << "Connect finished~\n";
   // Close listening socket
   close(listening);
  
@@ -109,6 +115,9 @@ while (true)
         RCLCPP_INFO(node->get_logger(), "Publishing: '%s'", message.data.c_str());
         publisher_->publish(message);
          
+        w_file = fopen("/home/kjjgo35/msg.txt","w");
+        fwrite(message.data.c_str(), strlen(message.data.c_str()), 1, w_file);
+        if(w_file) fclose(w_file);
         // Echo message back to client
         //send(clientSocket, buf, bytesReceived + 1, 0);
     }
