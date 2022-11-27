@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">myplaces</string>
+    <string name="app_name">wifi test test</string>
     <string name="place_ID">Request place_ID</string>
     <string name="goToList">Show list/location</string>
     <string name="status">Place_ID exists</string>
@@ -12,4 +12,7 @@
     <string name="Conect">Conection test</string>
     <string name="send">send msg</string>
     <string name="number">-</string>
+    <string name="change">change</string>
+    <string name="Start">Start</string>
+    <string name="End">End</string>
 </resources>
