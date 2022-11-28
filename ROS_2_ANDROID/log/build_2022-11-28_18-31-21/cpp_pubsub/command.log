@@ -1,0 +1,6 @@
+Invoking command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/mingyu/lofi/ROS_2_ANDROID -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/ROS_2_ANDROID/install/cpp_pubsub
+Invoked command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/mingyu/lofi/ROS_2_ANDROID -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/ROS_2_ANDROID/install/cpp_pubsub
+Invoking command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub -- -j12 -l12
+Invoked command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub -- -j12 -l12
+Invoking command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub
+Invoked command in '/home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/ROS_2_ANDROID/build/cpp_pubsub

@@ -1,6 +1,0 @@
-[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_port[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
-   67 |   sockaddr_in client = {0[01;35m[K}[m[K;
-      |                          [01;35m[K^[m[K
-[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_addr[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
-[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_zero[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]

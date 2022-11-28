@@ -1,0 +1,4 @@
+[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:46:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw_file[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   46 |   FILE *[01;35m[Kw_file[m[K = NULL;
+      |         [01;35m[K^~~~~~[m[K
