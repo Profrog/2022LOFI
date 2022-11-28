@@ -5,4 +5,4 @@ gnome-terminal -- ./lofi0
 cd catkin_ws
 ./cam0
 cd ..
-python3 make_end.py
+#python3 make_end.py

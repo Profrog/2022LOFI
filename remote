@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ROS_2_ANDROID
+./connect
