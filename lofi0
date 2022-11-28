@@ -1,4 +1,5 @@
 #!/bin/bash
+gnome-terminal -- ./remote
 gnome-terminal -- ./lofi00
 sleep 1
 source install/setup.bash

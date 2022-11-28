@@ -1,3 +1,4 @@
 #!/bin/bash
+python3 make_start.py
 gnome-terminal -- ./lofi0
 python3 camera.py
