@@ -1,5 +1,9 @@
 # 2022competition
 
+## LOFI 모듈 세팅 
+
+
+
 a1. 패키지 세팅 https://github.com/Profrog/2022competition/tree/mingyu 참조
 
 a2. 작동모드
