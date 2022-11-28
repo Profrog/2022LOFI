@@ -1,0 +1,77 @@
+[0.052s] Invoking command in '/home/mingyu/lofi/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/mingyu/lofi/ROS_2_ANDROID -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/cpp_pubsub
+[0.207s] -- The C compiler identification is GNU 9.4.0
+[0.289s] -- The CXX compiler identification is GNU 9.4.0
+[0.300s] -- Check for working C compiler: /usr/bin/cc
+[0.407s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.411s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.539s] -- Detecting C compile features
+[0.540s] -- Detecting C compile features - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.672s] -- Detecting CXX compiler ABI info
+[0.794s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Detecting CXX compile features
+[0.815s] -- Detecting CXX compile features - done
+[0.819s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.864s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.864s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.295s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.391s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.538s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.581s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.814s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.819s] -- Looking for pthread.h
+[1.923s] -- Looking for pthread.h - found
+[1.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.038s] -- Looking for pthread_create in pthreads
+[2.125s] -- Looking for pthread_create in pthreads - not found
+[2.126s] -- Looking for pthread_create in pthread
+[2.226s] -- Looking for pthread_create in pthread - found
+[2.227s] -- Found Threads: TRUE  
+[2.632s] -- Configuring done
+[2.646s] -- Generating done
+[2.647s] -- Build files have been written to: /home/mingyu/lofi/build/cpp_pubsub
+[2.655s] Invoked command in '/home/mingyu/lofi/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/mingyu/lofi/ROS_2_ANDROID -DCMAKE_INSTALL_PREFIX=/home/mingyu/lofi/install/cpp_pubsub
+[2.660s] Invoking command in '/home/mingyu/lofi/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/build/cpp_pubsub -- -j12 -l12
+[2.721s] [35m[1mScanning dependencies of target listener[0m
+[2.721s] [35m[1mScanning dependencies of target talker[0m
+[2.772s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.776s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.707s] [01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.707s] [01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_port[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[4.707s]    67 |   sockaddr_in client = {0[01;35m[K}[m[K;
+[4.707s]       |                          [01;35m[K^[m[K
+[4.707s] [01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_addr[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[4.707s] [01m[K/home/mingyu/lofi/ROS_2_ANDROID/src/publisher_member_function.cpp:67:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_zero[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[7.191s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[7.431s] [ 75%] Built target talker
+[9.936s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.211s] [100%] Built target listener
+[10.227s] Invoked command in '/home/mingyu/lofi/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mingyu/lofi/build/cpp_pubsub -- -j12 -l12
+[10.263s] Invoking command in '/home/mingyu/lofi/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/build/cpp_pubsub
+[10.275s] -- Install configuration: ""
+[10.275s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.276s] -- Set runtime path of "/home/mingyu/lofi/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.277s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.279s] -- Set runtime path of "/home/mingyu/lofi/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[10.279s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.279s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.279s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.280s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.281s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[10.281s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[10.281s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.282s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.282s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.282s] -- Installing: /home/mingyu/lofi/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.294s] Invoked command in '/home/mingyu/lofi/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mingyu/lofi/build/cpp_pubsub

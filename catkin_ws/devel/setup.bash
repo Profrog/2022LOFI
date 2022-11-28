@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # generated from catkin/cmake/templates/setup.bash.in
 
-export ROS_HOSTNAME=192.168.132.28
-export ROS_MASTER_URI=http://192.168.132.71:11311 
+export ROS_HOSTNAME=192.168.204.28
+export ROS_MASTER_URI=http://192.168.204.104:11311 
 
 CATKIN_SHELL=bash
 
