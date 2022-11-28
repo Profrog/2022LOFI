@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     int i = 0;
     String mens;
     String ip;
+    String alpa = "a";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {  // Activity가 보이기 시작할때 값을 저장한다.
         super.onStart();
+
         restoreState();
         if(ip != null)
             ipshow.setText("Current ip: " + ip);
@@ -78,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
         if((pref!=null) && (pref.contains("text"))){
             ip = pref.getString("text", "");
         }
-
     }
 
     public void onBtnClick() {
@@ -86,16 +87,22 @@ public class MainActivity extends AppCompatActivity {
         startbutton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                StartBackGroundTask b2 = new StartBackGroundTask();
-                b2.execute();
+                //StartBackGroundTask b2 = new StartBackGroundTask();
+                //b2.execute();
+                alpa = "a";
+                StartBackGroundTask b1 = new StartBackGroundTask();
+                b1.execute();
             }
         });
 
         endbutton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                EndBackGroundTask b3 = new EndBackGroundTask();
-                b3.execute();
+                //EndBackGroundTask b3 = new EndBackGroundTask();
+                //b3.execute();
+                alpa = "b";
+                StartBackGroundTask b2 = new StartBackGroundTask();
+                b2.execute();
             }
         });
 
@@ -117,45 +124,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    class BackGroundTask extends AsyncTask<String, Void, Void> {
-
-        Handler h = new Handler();
-        @Override
-        protected Void doInBackground(String... voids) {
-            try {
-                mens = String.valueOf(i);
-
-                if(s == null){
-                    //change it to your IP
-                    s = new Socket(ip,6000);
-                    writer = new PrintWriter(s.getOutputStream());
-                    Log.i("i", "CONNECTED");
-                }
-                writer.write(mens);
-                writer.flush();
-                //writer.close();
-                i = i+1;
-                h.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        number.setText(mens);
-                    }
-                });
-            }
-            catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-    }
-
     class StartBackGroundTask extends AsyncTask<String, Void, Void> {
 
         Handler h = new Handler();
         @Override
         protected Void doInBackground(String... voids) {
             try {
-                mens = "a";
+                mens = alpa;
 
                 if(s == null){
                     //change it to your IP
@@ -186,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... voids) {
             try {
-                mens = "B";
+                mens = alpa;
 
                 if(s == null){
                     //change it to your IP
