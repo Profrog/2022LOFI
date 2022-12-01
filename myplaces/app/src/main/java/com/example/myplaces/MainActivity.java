@@ -9,11 +9,14 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.graphics.Color;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     String mens;
     String ip;
     String alpa = "a";
+    LinearLayout back_0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         ipinput =(EditText) findViewById(R.id.editip);
         ipshow.setText("Current ip: " + ip);
         number = (TextView) findViewById(R.id.number);
-
+        back_0 = (LinearLayout) findViewById(R.id.ipchangelayout);
         onBtnClick();
     }
 
@@ -92,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 alpa = "a";
                 StartBackGroundTask b1 = new StartBackGroundTask();
                 b1.execute();
+                back_0.setBackgroundColor(Color.parseColor("#FFEB3B"));
             }
         });
 
@@ -103,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 alpa = "b";
                 StartBackGroundTask b2 = new StartBackGroundTask();
                 b2.execute();
+                back_0.setBackgroundColor(Color.parseColor("#4CAF50"));
             }
         });
 
@@ -137,6 +143,7 @@ public class MainActivity extends AppCompatActivity {
                     s = new Socket(ip,6000);
                     writer = new PrintWriter(s.getOutputStream());
                     Log.i("i", "CONNECTED");
+
                 }
                 writer.write(mens);
                 writer.flush();

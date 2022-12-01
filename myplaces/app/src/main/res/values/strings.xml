@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">wifi test test</string>
+    <string name="app_name">LOFI APP</string>
     <string name="place_ID">Request place_ID</string>
     <string name="goToList">Show list/location</string>
     <string name="status">Place_ID exists</string>
