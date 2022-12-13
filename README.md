@@ -80,6 +80,3 @@ https://nirsa.tistory.com/332
 4. CUDA를 성공적으로 설치했다면, ceres solver와 COLMAP을 설치할 때, 'cuda found'등의 메시지가 설치 도중에 터미널 창에 보일 것이다. 이 모든 과정이 성공적으로 진행되었다면, colmap을 bash상에서 제어 가능하다.
 
 5. colmap -h를 눌러 bash에서 필요한 커맨드를 입력해 입체화된 파일을 만들어낼 수 있다. CLI 기반 제어에 대한 튜토리얼 링크: https://colmap.github.io/cli.html
-
-## 현재 상황에 대한 정리
-COLMAP은 CUDA GPU를 사용해야만 point cloud를 생성해 내고, CUDA가 깔려있지 않은 PC에선 돌릴 수 없다. 그러나 CUDA를 설치하고 COLMAP을 설치하면 빌드 오류가 발생해서 이틀동안 헤매다 일단 잠깐 내려놓은 상태이다. CUDA 베이스로 COLMAP을 설치해서 성공하면 배쉬에서 모든 것을 컨트롤할 수 있기 때문에 실시간 입체화에 성공할 수 있다. 그러나 그게 안 되면... 발표 때 가라를 쳐서 영상 편집을 해서라도 Dense Cloud를 만들어내는 걸 보여줘야 할 것이다. 콜맵을 설치함에 있어서 어려운 부분이 있다면 언제든 단톡에 연락을 달라.
