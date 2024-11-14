@@ -1,4 +1,8 @@
 # 2022competition
+repository : https://github.com/Profrog/2022competition  
+영상시연 : https://www.youtube.com/watch?v=zBPwgLPdnxA  
+보고서 : https://url.kr/e8artp  
+상장 : https://url.kr/tmwfjx  
 
 ## LOFI 모듈 세팅 
 
