@@ -1,7 +1,7 @@
 # 2022LOFI
 영상시연 : https://www.youtube.com/watch?v=zBPwgLPdnxA  
 보고서(포트폴리오) : https://github.com/Profrog/2022LOFI/blob/main/3D%EB%A1%9C%ED%8C%8C%EC%9D%B4_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf    
-상장 : [https://url.kr/tmwfjx  ](https://github.com/Profrog/2022LOFI/blob/main/%EA%B2%BD%EC%A3%BC%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B4%80%EA%B4%91_%EC%83%81%EC%9E%A5.jpg)  
+상장 : https://github.com/Profrog/2022LOFI/blob/main/%EA%B2%BD%EC%A3%BC%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B4%80%EA%B4%91_%EC%83%81%EC%9E%A5.jpg  
 
 ## LOFI 모듈 세팅 
 
